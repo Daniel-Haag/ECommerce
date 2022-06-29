@@ -9,7 +9,9 @@ namespace ECommerce.Models
 
         }
 
-
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<RegistroCompra> RegistroCompras { get; set; }
 
     }
 }
