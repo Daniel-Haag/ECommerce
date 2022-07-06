@@ -5,6 +5,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthentication("Identidade.Login")
+                .AddCookie("Identidade.Login", config =>
+                {
+                    config.Cookie.Name = "Identidade.Login";
+                    config.LoginPath = "/Login";
+                    config.AccessDeniedPath = "/Home";
+                    config.ExpireTimeSpan = TimeSpan.FromHours(1);
+                });
 builder.Services.AddDbContext<ECommerceDbContext>(options =>
 options.UseSqlServer("Password=123456;Persist Security Info=True;User ID=sa;Initial Catalog=ECommerce;Data Source=DESKTOP-AKVL4PJ\\SQLEXPRESS"));
 
@@ -22,6 +30,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

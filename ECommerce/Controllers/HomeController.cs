@@ -15,6 +15,11 @@ namespace ECommerce.Controllers
 
         public IActionResult Index()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return Json(new { Msg = "Usuário logado" });
+            }
+
             return View();
         }
 
