@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tOdxqVlq4K4uFiTT9clf+QYcrzunKPKdYaYPV0aOsao=",
+  "Hash": "qsekcdSGbe2simaOeFgOzVR5AVgVL4NuV6Fwjcir4Jk=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Cursos\\Projeto eCOMMERCE\\ECommerce\\ECommerce\\wwwroot\\ecommerce.png",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Cursos\\Projeto eCOMMERCE\\ECommerce\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "ecommerce.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ecommerce.png"
     },
     {
       "Identity": "C:\\Cursos\\Projeto eCOMMERCE\\ECommerce\\ECommerce\\wwwroot\\favicon.ico",
