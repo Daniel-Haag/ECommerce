@@ -19,6 +19,10 @@ namespace ECommerce.Controllers
             {
                 return Json(new { Msg = "Usuário logado" });
             }
+            else
+            {
+                return Json(new { Msg = "Usuário não logado" });
+            }
 
             return View();
         }

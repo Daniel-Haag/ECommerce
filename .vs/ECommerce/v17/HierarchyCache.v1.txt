@@ -10,6 +10,116 @@ i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:>428
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\properties\
 ++wwwroot
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\
+++css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\css\
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\js\
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\
+++bootstrap
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\
+++dist
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\dist\
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\dist\
+++bootstrap.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++bootstrap.bundle.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.bundle.min.js.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.js.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++bootstrap.min.js.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++LICENSE
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\license
+++jquery
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\
+++jquery-validation
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation-unobtrusive\
+++favicon.ico
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\favicon.ico
 ++Controllers
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\controllers\
 ++HomeController.cs
@@ -68,16 +178,19 @@ i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:estruturas
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:pacotes
 ++launchSettings.json
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\properties\launchsettings.json
-++css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\css\
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\
-++js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\js\
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\
-++lib
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\
-++favicon.ico
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\favicon.ico
+++site.css
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\css\site.css
+++site.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\js\site.js
+++bootstrap.esm.min.js.map
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++LICENSE.txt
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\license.txt
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 ++20220629133043_Inicial.cs
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\migrations\20220629133043_inicial.cs
 ++ECommerceDbContextModelSnapshot.cs
@@ -115,38 +228,11 @@ i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\e
 ++Microsoft.NETCore.App
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\microsoft.netcore.app
 ++Microsoft.EntityFrameworkCore (6.0.6)
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:>441
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:>448
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.6)
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:>442
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:>449
 ++Microsoft.EntityFrameworkCore.Tools (6.0.6)
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:>443
-++site.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\css\site.css
-++site.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\js\site.js
-++bootstrap
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\
-++jquery
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\
-++jquery-validation
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation-unobtrusive\
-++20220629133043_Inicial.Designer.cs
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\migrations\20220629133043_inicial.designer.cs
-++dist
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\dist\
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\dist\
-++LICENSE
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\license
-++LICENSE.txt
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\license.txt
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-++LICENSE.md
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\license.md
-++jquery.validate.unobtrusive.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:>450
 ++jquery.js
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\dist\jquery.js
 ++additional-methods.js
@@ -155,105 +241,37 @@ i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\e
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 ++jquery.validate.unobtrusive.min.js
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-++bootstrap.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-++bootstrap-grid.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-++bootstrap-reboot.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-++bootstrap-utilities.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-++bootstrap.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++20220629133043_Inicial.Designer.cs
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\migrations\20220629133043_inicial.designer.cs
 ++jquery.min.js
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\dist\jquery.min.js
 ++additional-methods.min.js
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 ++jquery.validate.min.js
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-++bootstrap.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-++bootstrap.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-++bootstrap.rtl.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-++bootstrap-grid.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-++bootstrap-grid.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-++bootstrap-grid.rtl.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-++bootstrap-reboot.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-++bootstrap-reboot.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-++bootstrap-reboot.rtl.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-++bootstrap-utilities.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-++bootstrap-utilities.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-++bootstrap-utilities.rtl.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-++bootstrap.bundle.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-++bootstrap.esm.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-++bootstrap.js.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-++bootstrap.min.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 ++jquery.min.map
 i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\jquery\dist\jquery.min.map
-++bootstrap.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-++bootstrap.rtl.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-++bootstrap.rtl.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-++bootstrap-grid.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-++bootstrap-grid.rtl.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-++bootstrap-grid.rtl.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-++bootstrap-reboot.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-++bootstrap-reboot.rtl.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-++bootstrap-reboot.rtl.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-++bootstrap-utilities.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-++bootstrap-utilities.rtl.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-++bootstrap-utilities.rtl.min.css
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-++bootstrap.bundle.js.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-++bootstrap.bundle.min.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-++bootstrap.esm.js.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-++bootstrap.esm.min.js
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-++bootstrap.min.js.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-++bootstrap.rtl.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-++bootstrap-grid.rtl.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-++bootstrap-reboot.rtl.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-++bootstrap-utilities.rtl.min.css.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-++bootstrap.bundle.min.js.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-++bootstrap.esm.min.js.map
-i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 ++Documentos de Script
 ++VM5
 ++jquery-3.3.1.slim.min.js
 ++popper.min.js
 ++aspnetcore-browser-refresh.js
 ++browserLink
+++VM14
+++m=el_conf
+++VM16
+++VM17
+++VM18
+++VM19
+++VM20
+++VM21
+++VM22
+++VM23
+++VM24
+++VM25
+++VM26
+++VM27
+++ecommerce.png
+i:{bcf64a7c-9da3-4805-bdc5-e528ab8b3340}:c:\cursos\projeto ecommerce\ecommerce\ecommerce\wwwroot\ecommerce.png
+++VM33
+++VM38

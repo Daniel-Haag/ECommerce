@@ -8,22 +8,32 @@
             <div class="form-group">
                 <div class="col-md-4 offset-md-4">
                     <img class="mb-4" src="..\ecommerce.png" alt="" width="72" height="72">
-                    <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
+                    <h1 class="h3 mb-3 font-weight-normal">Login</h1>
                     <label for="inputEmail" class="sr-only">Endereço de email</label>
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required autofocus name="Email">
+                    <input type="email" id="inputEmail" class="form-control margens" placeholder="Seu email" required autofocus name="Email">
                     <label for="inputPassword" class="sr-only">Senha</label>
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required name="Senha">
+                    <input type="password" id="inputPassword" class="form-control margens" placeholder="Senha" required name="Senha">
                     <div class="checkbox mb-3">
-                        <label>
+                        <label class="margens">
                             <input type="checkbox" value="remember-me"> Lembrar de mim
                         </label>
                     </div>
                     <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                    <form asp-controller="Usuario" asp-action="NovoUsuario" method="get">
+                        <button class="btn btn-lg btn-primary btn-block" asp-controller="Usuario" asp-action="NovoUsuario" formmethod="get" type="submit">Novo Usuário</button>
+                    </form>
                     <p class="mt-5 mb-3 text-muted">&copy; 2021-2022</p>
                 </div>
             </div>
-
         </body>
     </form>
 </div>
+
+<script>
+
+    function novoUsuario(){
+        
+    }
+
+</script>
 

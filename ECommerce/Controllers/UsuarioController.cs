@@ -73,6 +73,18 @@ namespace ECommerce.Controllers
             }
         }
 
+        [HttpGet]
+        public IActionResult NovoUsuario()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult NovoUsuario(Usuario usuario)
+        {
+            return View();
+        }
+
         public IActionResult Logout()
         {
             if (User.Identity.IsAuthenticated)
