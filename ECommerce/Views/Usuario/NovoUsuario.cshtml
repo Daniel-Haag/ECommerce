@@ -1,27 +1,35 @@
 ﻿@{
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "Novo Usuário";
 }
 
 <div class="container">
-    <form asp-controller="Usuario" asp-action="Login" method="post">
+    <form asp-controller="Usuario" asp-action="NovoUsuario" method="post">
         <body class="text-center">
             <div class="form-group">
                 <div class="col-md-4 offset-md-4">
                     <img class="mb-4" src="..\ecommerce.png" alt="" width="72" height="72">
                     <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+                    <label for="inputNome" class="sr-only">Nome</label>
+                    <input type="text" id="inputNome" class="form-control margens" placeholder="Seu nome" required autofocus name="Nome">
+                    <label for="inputCPF" class="sr-only">CPF</label>
+                    <input type="text" id="inputCPF" class="form-control margens" placeholder="Seu CPF" required autofocus name="CPF">
                     <label for="inputEmail" class="sr-only">Endereço de email</label>
                     <input type="email" id="inputEmail" class="form-control margens" placeholder="Seu email" required autofocus name="Email">
                     <label for="inputPassword" class="sr-only">Senha</label>
-                    <input type="password" id="inputPassword" class="form-control margens" placeholder="Senha" required name="Senha">
-                    <div class="checkbox mb-3">
-                        <label class="margens">
-                            <input type="checkbox" value="remember-me"> Lembrar de mim
-                        </label>
+                    <input type="password" id="inputPassword" class="form-control margens" placeholder="Sua senha" required name="Senha">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="radioComprador" name="Comprador" class="custom-control-input" value="false" 
+                            onclick="$('#radioComprador').val('true') $('#radioVendedorHidden').val('false')">
+                        <label class="custom-control-label" for="radioComprador">Quero comprar</label>
                     </div>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-                    <button class="btn btn-lg btn-primary btn-block" type="button">
-                        @Html.ActionLink("", "NovoUsuario", "Usuario") Novo Usuário
-                    </button>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="radioVendedor" name="Comprador" class="custom-control-input" value="false" 
+                            onclick="$('#radioVendedorHidden').val('true') $('#radioComprador').val('false')">
+                        <label class="custom-control-label" for="radioVendedor">Quero vender</label>
+                        <input hidden type="radio" id="radioVendedorHidden" name="Vendedor" class="custom-control-input" value="false">
+                    </div>
+                    
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Cadastrar</button>
                     <p class="mt-5 mb-3 text-muted">&copy; 2021-2022</p>
                 </div>
             </div>
