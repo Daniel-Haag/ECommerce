@@ -17,7 +17,8 @@ namespace ECommerce.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                return Json(new { Msg = "Usuário logado" });
+                return View();                
+                //return Json(new { Msg = "Usuário logado" });
             }
             else
             {

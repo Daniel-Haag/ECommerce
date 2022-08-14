@@ -22,6 +22,8 @@ namespace ECommerce.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            ViewBag.Cadastrado = TempData["Cadastrado"];
+
             return View();
         }
 
@@ -82,6 +84,24 @@ namespace ECommerce.Controllers
         [HttpPost]
         public IActionResult NovoUsuario(Usuario usuario)
         {
+            try
+            {
+                _dbContext.Add(usuario);
+                _dbContext.SaveChanges();
+
+                TempData["Cadastrado"] = true;
+
+                //ViewBag.Cadastrado = true;
+                return RedirectToAction("Login", "Usuario");
+            }
+            catch (Exception e)
+            {
+                //ViewBag.Cadastrado = false;
+                TempData["Cadastrado"] = false;
+                string erro = e.Message;
+                return Json(new { Msg = erro });
+            }
+
             return View();
         }
 
