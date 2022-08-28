@@ -17,6 +17,10 @@ body {
   margin-bottom: 60px;
 }
 
+header {
+    visibility:hidden;
+}
+
 .margens {
     margin: 4px 4px 4px 4px;
 }

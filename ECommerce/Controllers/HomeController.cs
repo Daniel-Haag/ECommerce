@@ -17,6 +17,7 @@ namespace ECommerce.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
+                ViewBag.Autenticado = true;
                 return View();                
                 //return Json(new { Msg = "Usuário logado" });
             }
@@ -24,8 +25,6 @@ namespace ECommerce.Controllers
             {
                 return Json(new { Msg = "Usuário não logado" });
             }
-
-            return View();
         }
 
         public IActionResult Login()

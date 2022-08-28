@@ -11,6 +11,17 @@ namespace ECommerce.Controllers
         }
 
         [HttpGet]
+        public IActionResult CadastroDeProdutos()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                ViewBag.Autenticado = true;
+            }
+
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult NovoProduto()
         {
             return View();

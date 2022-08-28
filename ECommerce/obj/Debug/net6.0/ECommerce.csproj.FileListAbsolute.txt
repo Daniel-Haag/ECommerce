@@ -5,7 +5,6 @@ C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.exe
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.deps.json
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.runtimeconfig.json
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.dll
-C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\ref\ECommerce.dll
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\ECommerce.pdb
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\Humanizer.dll
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -59,3 +58,4 @@ C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\obj\Debug\net6.0\ref\ECommerce.d
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.pdb
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.genruntimeconfig.cache
 C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\obj\Debug\net6.0\ECommerce.csproj.AssemblyReference.cache
+C:\Cursos\Projeto eCOMMERCE\ECommerce\ECommerce\obj\Debug\net6.0\refint\ECommerce.dll

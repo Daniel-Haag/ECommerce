@@ -2,14 +2,34 @@
     ViewData["Title"] = "Novo Produto";
 }
 
+@{
+    try
+    {
+        if (@ViewBag.Autenticado)
+        {
+            <style>
+
+                header {
+                    visibility: visible;
+                }
+
+            </style>
+        }
+    }
+    catch (Exception e)
+    {
+
+    }
+}
+
 <div class="container">
     <form asp-controller="Produto" asp-action="NovoProduto" method="post">
         <body class="text-center">
             <div class="form-group">
                 <div class="col-md-4 offset-md-4">
                     <img class="mb-4" src="..\ecommerce.png" alt="" width="72" height="72">
-                    <h1 class="h3 mb-3 font-weight-normal">Novo Usuário</h1>
-                    <label for="inputNome" class="sr-only">Nome</label>
+                    <h1 class="h3 mb-3 font-weight-normal">Novo Produto</h1>
+                    <label for="inputNome" class="sr-only">Nome do produto</label>
                     <input type="text" id="inputNome" class="form-control margens" placeholder="Seu nome" required autofocus name="Nome">
                     <label for="inputCPF" class="sr-only">CPF</label>
                     <input type="text" id="inputCPF" class="form-control margens" placeholder="Seu CPF" required autofocus name="CPF">
