@@ -29,24 +29,12 @@
                 <div class="col-md-4 offset-md-4">
                     <img class="mb-4" src="..\ecommerce.png" alt="" width="72" height="72">
                     <h1 class="h3 mb-3 font-weight-normal">Novo Produto</h1>
-                    <label for="inputNome" class="sr-only">Nome do produto</label>
-                    <input type="text" id="inputNome" class="form-control margens" placeholder="Seu nome" required autofocus name="Nome">
-                    <label for="inputCPF" class="sr-only">CPF</label>
-                    <input type="text" id="inputCPF" class="form-control margens" placeholder="Seu CPF" required autofocus name="CPF">
-                    <label for="inputEmail" class="sr-only">Endereço de email</label>
-                    <input type="email" id="inputEmail" class="form-control margens" placeholder="Seu email" required autofocus name="Email">
-                    <label for="inputPassword" class="sr-only">Senha</label>
-                    <input type="password" id="inputPassword" class="form-control margens" placeholder="Sua senha" required name="Senha">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="checkComprador" name="Comprador" class="custom-control-input" value="false"
-                               onclick="configuraComprador()">
-                        <label class="custom-control-label" for="checkComprador">Quero comprar</label>
-                    </div>
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="checkVendedor" name="Vendedor" class="custom-control-input" value="false"
-                               onclick="configuraVendedor()">
-                        <label class="custom-control-label" for="checkVendedor">Quero vender</label>
-                    </div>
+                    <label for="inputNomeProduto" class="sr-only">Nome do produto</label>
+                    <input type="text" id="inputNomeProduto" class="form-control margens" placeholder="Nome do produto" required autofocus name="Nome">
+                    <label for="inputValorProduto" class="sr-only">Valor</label>
+                    <input type="text" id="inputValorProduto" class="form-control margens" placeholder="Valor do produto" required autofocus name="Valor">
+                    <label for="inputDescricaoProduto" class="sr-only">Descrição</label>
+                    <textarea type="text" id="inputPassword" class="form-control margens" placeholder="Descrição do produto" required name="Descricao"></textarea>
                     <button class="btn btn-lg btn-primary btn-block" type="submit">Cadastrar</button>
                     <p class="mt-5 mb-3 text-muted">&copy; 2021-2022</p>
                 </div>
@@ -54,19 +42,3 @@
         </body>
     </form>
 </div>
-
-<script>
-
-    function configuraComprador(){
-        $('#checkComprador').val('true');
-        $('#checkVendedor').val('false');
-        $('#checkVendedor').attr('checked', false);
-    }
-
-    function configuraVendedor(){
-        $('#checkVendedor').val('true');
-        $('#checkComprador').val('false');
-        $('#checkComprador').attr('checked', false)
-    }
-
-</script>

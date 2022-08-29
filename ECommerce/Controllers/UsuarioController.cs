@@ -2,6 +2,9 @@
 using ECommerce.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.AspNetCore.Server.IIS.Core;
 
 namespace ECommerce.Controllers
 {
@@ -28,7 +31,6 @@ namespace ECommerce.Controllers
                 
             }
 
-
             ViewBag.Cadastrado = TempData["Cadastrado"];
 
             return View();
@@ -39,23 +41,14 @@ namespace ECommerce.Controllers
         {
             try
             {
-                var Usuario = _dbContext.Usuarios.Where(x => x.Email == usuario.Email && x.Senha == usuario.Senha);
+                Usuario Usuario = _dbContext.Usuarios.Where(x => x.Email == usuario.Email && x.Senha == usuario.Senha).FirstOrDefault();
 
                 if (Usuario != null)
                 {
-                    Usuario usuarioLogado = new Usuario();
-
-                    usuarioLogado.UsuarioID = Usuario.Select(x => x.UsuarioID).FirstOrDefault();
-                    usuarioLogado.Email = Usuario.Select(x => x.Email).FirstOrDefault();
-                    usuarioLogado.Nome = Usuario.Select(x => x.Nome).FirstOrDefault();
-                    usuarioLogado.CPF = Usuario.Select(x => x.CPF).FirstOrDefault();
-                    usuarioLogado.Comprador = Usuario.Select(x => x.Comprador).FirstOrDefault();
-                    usuarioLogado.Vendedor = Usuario.Select(x => x.Vendedor).FirstOrDefault();
-
                     List<Claim> direitosAcesso = new List<Claim>()
                     {
-                        new Claim(ClaimTypes.NameIdentifier, usuarioLogado.UsuarioID.ToString()),
-                        new Claim(ClaimTypes.Name, usuarioLogado.Nome ?? "")
+                        new Claim(ClaimTypes.NameIdentifier, Usuario.UsuarioID.ToString()),
+                        new Claim(ClaimTypes.Name, Usuario.Nome ?? "")
                     };
 
                     var identidade = new ClaimsIdentity(direitosAcesso, "Identidade.Login");
@@ -64,14 +57,14 @@ namespace ECommerce.Controllers
                     HttpContext.SignInAsync(usuarioPrincipal, new AuthenticationProperties
                     {
                         IsPersistent = false,
-                        ExpiresUtc = DateTime.Now.AddHours(1)
+                        ExpiresUtc = DateTime.Now.AddHours(1),
                     });
 
                     return RedirectToAction("Index", "Home");
-                    //return Json(new { Msg = "Usuário logado com sucesso!" });
                 }
                 else
                 {
+                    //To do: Melhorar resposta de usuário não encontrado
                     return Json(new { Msg = "Usuário não encontrado, verifique suas credenciais!" });
                 }
             }
@@ -98,18 +91,14 @@ namespace ECommerce.Controllers
 
                 TempData["Cadastrado"] = true;
 
-                //ViewBag.Cadastrado = true;
                 return RedirectToAction("Login", "Usuario");
             }
             catch (Exception e)
             {
-                //ViewBag.Cadastrado = false;
                 TempData["Cadastrado"] = false;
                 string erro = e.Message;
                 return Json(new { Msg = erro });
             }
-
-            return View();
         }
 
         public IActionResult Logout()
