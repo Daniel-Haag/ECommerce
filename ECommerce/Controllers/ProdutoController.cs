@@ -52,6 +52,8 @@ namespace ECommerce.Controllers
 
                         _dbContext.Add(produto);
                         _dbContext.SaveChanges();
+
+                        ViewBag.Cadastrado = true;
                     }
                 }
 

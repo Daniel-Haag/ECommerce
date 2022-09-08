@@ -20,7 +20,26 @@
     {
 
     }
+
+
+    try
+    {
+        if (@ViewBag.Cadastrado)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                Novo produto cadastrado com sucesso!
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+    }
+    catch (Exception e)
+    {
+
+    }
 }
+
 
 <div class="container">
     <form asp-controller="Produto" asp-action="NovoProduto" method="post">
