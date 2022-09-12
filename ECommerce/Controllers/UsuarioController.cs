@@ -28,7 +28,6 @@ namespace ECommerce.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 //return View();
-                
             }
 
             ViewBag.Cadastrado = TempData["Cadastrado"];

@@ -1,5 +1,6 @@
 ﻿using ECommerce.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace ECommerce.Controllers
@@ -24,6 +25,10 @@ namespace ECommerce.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 ViewBag.Autenticado = true;
+                int usuarioVendedorID = int.Parse(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value);
+                List<Produto> produtos = _dbContext.Produtos.Include(x => x.Vendedor).Where(x => x.Vendedor.UsuarioID == usuarioVendedorID).ToList();
+
+                ViewBag.ListaProdutos = produtos;
             }
 
             return View();
@@ -32,6 +37,11 @@ namespace ECommerce.Controllers
         [HttpGet]
         public IActionResult NovoProduto()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                ViewBag.Autenticado = true;
+            }
+
             return View();
         }
 
@@ -40,6 +50,11 @@ namespace ECommerce.Controllers
         {
             try
             {
+                if (User.Identity.IsAuthenticated)
+                {
+                    ViewBag.Autenticado = true;
+                }
+
                 int usuarioVendedorID = int.Parse(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
                 if (usuarioVendedorID > 0)

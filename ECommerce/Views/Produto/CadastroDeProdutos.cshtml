@@ -72,30 +72,25 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Primeiro</th>
-                    <th scope="col">Último</th>
-                    <th scope="col">Nickname</th>
+                    <th scope="col">Nome Vendedor</th>
+                    <th scope="col">Nome Produto</th>
+                    <th scope="col">Valor</th>
+                    <th scope="col">Descricão</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>twitter</td>
-                </tr>
+                @{
+                    foreach (var item in ViewBag.ListaProdutos)
+                    {
+                        <tr>
+                            <th scope="row">@item.ProdutoID</th>
+                            <td>@item.Vendedor.Nome</td>
+                            <td>@item.Nome</td>
+                            <td>@item.Valor</td>
+                            <td>@item.Descricao</td>
+                        </tr>
+                    }
+                }
             </tbody>
         </table>
 
