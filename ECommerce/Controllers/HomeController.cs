@@ -19,7 +19,6 @@ namespace ECommerce.Controllers
             {
                 ViewBag.Autenticado = true;
                 return View();                
-                //return Json(new { Msg = "Usuário logado" });
             }
             else
             {
